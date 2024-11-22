@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --main-bg-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul li {
+  /* display: inline; */
+  padding: 0 20px;
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  /* color: blue; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 180px;
+  padding: 0 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  width: 30vw;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0px 10px;
+  padding: 0px 10px;
+}
+
+.search button {
+  font-family: "Lato", sans-serif;
+}
+
+.search button:hover {
+    font-weight: bold;
+  }
+
+.container {
+  min-height: calc(100vh - 12vh - 60px);
+}
+
+.slider {
+    margin: auto;
+  width: 80vw;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+
+.card{
+    width: 80vw;
+    /* background-color: blue; */
+    margin: 30px auto;
+}
+
+.card h2{
+    font-family: "Lato", sans-serif;
+}
+
+.cards {
+    display: flex;
+    /* justify-content: center; */
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+  /* font-weight: 100; */
+  /* font-style: normal; */
+}
